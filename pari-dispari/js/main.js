@@ -41,9 +41,9 @@ somma = numeroUtente + numeroComputer;
 // verifca pari o dispari + log somma
 pariDispari();
 // log vincitore
-if (richiesta.toLocaleLowerCase() === pari && risultato === pari) {
+if (richiesta.toLowerCase() === pari && risultato === pari) {
   console.log("Il giocatore ha vinto");
-} else if (richiesta.toLocaleLowerCase() === dispari && risultato === dispari) {
+} else if (richiesta.toLowerCase() === dispari && risultato === dispari) {
   console.log("Il giocatore ha vinto");
 } else {
   console.log("Il computer ha vinto");
