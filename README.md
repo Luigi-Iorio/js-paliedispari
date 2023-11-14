@@ -13,7 +13,7 @@ L'obbietivo di questo esercizio è quello di creare una funzione per capire se l
 
 ### Conclusioni
 
-Per capire se la parola è palindroma ho deciso di creare due **array** inizialmente vuoti, due **cicli for** che avevano il compito di pushare le lettere in ordine inverso nei due array e una **condizione finale** per confrontare le lettere.
+Per capire se la parola è palindroma, ho deciso di creare due **array** inizialmente vuoti. Ho utilizzato due **cicli for** con il compito di inserire le lettere in ordine inverso nei due array. Infine, ho aggiunto una **condizione finale** per confrontare le lettere.
 
 Per confrontare correttamente i due array ho convertito i loro valori in stringa con il metodo **_toString()_**.
 
@@ -32,7 +32,7 @@ L'obbiettivo del secondo esercizio è stabilire chi è il vincitore al gioco par
 
 ### Conclusioni
 
-Per dichiarare il vincitore ho dovuto dichiarare e assegnare delle variabili predefinite come:
+Per decretare il vincitore ho dovuto dichiarare e assegnare delle variabili predefinite come:
 
 ```js
 const pari = "pari";
@@ -40,7 +40,7 @@ const dispari = "dispari";
 let risultato = "";
 ```
 
-Con l'aggiunta di queste variabili avevo tutti gli elementi per decretare il vincitore e con il metodo **_toLowerCase()_** avevo la sicurezza che il confronto tra la variabile e il dato inserito fosse corretto.
+Con l'aggiunta di queste variabili avevo tutti gli elementi per decretare il vincitore e con il metodo **_toLowerCase()_** avevo la sicurezza che il confronto tra la variabile e la scelta dell'utente fosse corretto.
 
 Quindi la condizione finale che ho utilizzato per decretare il vincitore è:
 
